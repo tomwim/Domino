@@ -4,7 +4,13 @@
 
 @import "{{ site.theme }}";
 
-h1 
+li
 {
 	color: red;
+}
+
+#test
+{
+	color: green;
+	font-size: 50px;
 }
