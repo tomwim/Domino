@@ -4,18 +4,266 @@
 
 @import "{{ site.theme }}";
 
-li
+html
 {
-	color: red;
+	height: 100%;
+	background: #222222;
 }
 
-.test
+body
+{	
+	height: 100%;
+	margin: 0 !important;
+    padding: 0 !important;
+}
+
+header
 {
-	color: green;
+	margin: 0 !important;
+    padding: 0 !important;
+}
+
+nav#navigation
+{
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	background-color: #222222;
+	padding-top: 10px;
+}
+
+ul.centerUL
+{
+	margin: auto;
+	width: 81%;
+	height: 100%;
+}
+
+.centerUL li
+{	
+	height: 100%;
+	display: inline-block;
+	color: white;
+	width: 25%;
+	font-size: 25px;
+	font-family: 'Khand-bold', sans-serif;
+}
+
+.centerUL li a:link 
+{
+	color: white;
+	text-decoration: none;
+}
+
+.centerUL li a:visited 
+{
+	color: white;
+	text-decoration: none;
+}
+
+#home
+{
+	min-height: 100%;
+	min-width: 100%;
+	top: 0;
+	left: 0;
+
+	background: url(../images/DominoBG-dark2.png) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+  	margin-bottom: 0;
+}
+
+#home .logo
+{
+	width: 32%;
+	height: 32%;
+	display: block;
+	margin: auto;
+	padding-top: 10%;
+}
+
+.title
+{
+	margin-top: 20px;
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Khand-bold', sans-serif;
+	color: white;
+	/*-webkit-text-stroke: 2px #530000;*/
+}
+
+#team
+{
+	width: 100%;
+	background-color: #222222;
+
+	margin-top: 0;
+
+	overflow: auto;
+}
+
+#members
+{
+	width: 100%;
+	background-color: #222222;
+}
+
+.clear
+{
+	clear: both;
+	float: none;
+}
+
+#contact
+{
+	width: 100%;
+	height: 100%;
+	background-color: #222222;
+}
+
+.section-title
+{
+	display: inline-block;
+	color: white;
 	font-size: 50px;
+	font-family: 'Khand-bold', sans-serif;
+}
+
+#team .section-title
+{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+#members .section-title
+{
+	margin-top: 50px;
+	margin-right: 50px;
+	float: right;
+}
+
+#contact .section-title
+{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.separator
+{
+	color: red;
+	width: 50%;
+}
+
+#team .separator
+{
+	margin-left: 30px;
+}
+
+#team .team-content
+{
+	margin-top: 50px;
+	width: 100%;
+	height: 100%;
+}
+
+#team .logo-container
+{
+	width: 50%;
+	float: left;
+}
+
+#team .logo
+{
+	width: 60%;
+	height: 60%;
+	display: block;
+	margin: auto;
+	padding-top: 30px;
+}
+
+#team .team-description
+{
+	width: 45%;
+	font-size: 30px;
+	font-family: 'Khand-regular', sans-serif;
+	color: white;
+	float: left;
+}
+
+.team-bg
+{
+	min-height: 100%;
+	min-width: 100%;
+	top: 0;
+	left: 0;
+
+	background: url(../images/logo-white.png) no-repeat center center;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#members .separator
+{
+	margin-right: 30px;
+	float: right;
+}
+
+.member-description
+{
+	margin: 0 auto;
+
+	color: white;
+	font-family: 'Khand-bold', sans-serif;
+}
+
+.member-description .member-name
+{
+	font-size: 35px;
+}
+
+.member-description .member-title
+{
+	margin-top: -10px;
+	font-size: 25px;
+	color: #DCDBDA;
+}
+
+.member-list
+{
+	width: 70%;
+	height: 100%;
+	/*margin: 0 auto;*/
+	margin-left: 22%;
+	background-color: red;
+}
+
+.member-list .member-row .member-description
+{
+	margin-top: 20px;
+	width: 50%;
+}
+
+.member-list .member-row .member-description:nth-child(1)
+{
+	float: left;
+}
+
+.member-list .member-row .member-description:nth-child(2)
+{
+	height: 75%;
+	float: left;
 }
 
 .content
 {
-	background-color: #590818;
+	width: 100%;
+	height: 100%;
+	background-color: #222222;
 }
