@@ -47,7 +47,7 @@ ul.centerUL
 	width: 81%;
 	height: 100%;
 
-	background-color: red;
+	vertical-align: middle;
 }
 
 .centerUL li
@@ -58,6 +58,7 @@ ul.centerUL
 	width: 27%;
 	font-size: 25px;
 	font-family: 'Khand-bold', sans-serif;
+	padding-top: 15px;
 }
 
 .centerUL li a:link 
