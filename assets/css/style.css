@@ -23,14 +23,22 @@ header
     padding: 0 !important;
 }
 
-nav#navigation
+#navigation
 {
-	height: 40px;
+	height: 60px;
 	width: 100%;
 	text-align: center;
 	position: fixed;
 	background-color: #222222;
-	padding-top: 10px;
+}
+
+#navigation .container
+{
+	height: 100%;
+	width: 81%;
+	display: table;
+
+	vertical-align: middle;
 }
 
 ul.centerUL
@@ -38,6 +46,8 @@ ul.centerUL
 	margin: auto;
 	width: 81%;
 	height: 100%;
+
+	background-color: red;
 }
 
 .centerUL li
@@ -45,7 +55,7 @@ ul.centerUL
 	height: 100%;
 	display: inline-block;
 	color: white;
-	width: 25%;
+	width: 27%;
 	font-size: 25px;
 	font-family: 'Khand-bold', sans-serif;
 }
@@ -60,6 +70,23 @@ ul.centerUL
 {
 	color: white;
 	text-decoration: none;
+}
+
+#navigation .logo-frame
+{
+	float: left;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+
+	margin-left: 50px;
+}
+
+#navigation .logo
+{
+	max-height: 60px;
+	width: 60px;
+	vertical-align: middle;
 }
 
 #home
