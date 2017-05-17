@@ -210,7 +210,7 @@ ul.centerUL
 
 #team .team-content
 {
-	margin-top: 50px;
+	margin-top: 20px;
 	width: 100%;
 	height: 100%;
 }
@@ -227,7 +227,7 @@ ul.centerUL
 	height: 60%;
 	display: block;
 	margin: auto;
-	padding-top: 30px;
+	padding-top: 50px;
 }
 
 #team .team-description
@@ -344,4 +344,12 @@ ul.centerUL
 	width: 100%;
 	height: 100%;
 	background-color: #222222;
+}
+
+#club
+{
+	display: block;
+	position: relative;
+	height: 0px;
+    top: -60px;
 }
